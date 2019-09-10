@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+% Sprache: Deutsch
+\usepackage[ngerman]{babel}
+% Font: Arial-like
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+% Seitenränder ähnlich Word
+\usepackage[tmargin=2.5cm,bmargin=2cm,lmargin=2.5cm,rmargin=2.5cm]{geometry}
+% Überschriften kleiner
+\usepackage{titlesec}
+\titleformat{\section}
+  {\large}{\thesection.}{1em}{}
+\titleformat{\subsection}
+  {\large}{$\ast$}{1em}{}
+\titlespacing*{\subsection}{\parindent}{1ex}{1em}
+% Tabelle
+\usepackage{tabularx}
+\usepackage{float}
+\setlength{\extrarowheight}{10pt}
+
+%Platzhalter
+\newcommand{\empfaenger}{Platzhalter eintragen}
+\newcommand{\foerderkz}{Platzhalter eintragen}
+\newcommand{\vorhabenbez}{Platzhalter eintragen}
+\newcommand{\laufzeit}{Platzhalter eintragen}
+\newcommand{\berichtsperiode}{Platzhalter eintragen}
+
+\begin{document}
+
+\begin{center}
+      \Large\textbf{Zwischenbericht}\\
+\end{center}
+
+\input{resource/table.tex}
+
+\noindent\Large{\textbf{Der Zwischenbericht soll zu folgenden Punkten/Fragen kurzgefasste Angaben enthalten:}} \\ 
+
+\section{Aufzählung der wichtigsten wissenschaftlich-technischen Ergebnisse und anderer wesentlicher Ereignisse.\\ {\normalsize (konkrete Darstellung Ihrer Zwischenergebnisse im Berichtszeitraum (maximal 10 DIN A4-Seiten)}}
+
+\section{Vergleich des Stands des Vorhabens mit der ursprünglichen (bzw. mit Zustimmung des Zuwendungsgebers geänderten) Arbeits-, Zeit- und Ausgaben/Kostenplanung.}
+
+\section{Haben sich die Aussichten für die Erreichung der Ziele des Vorhabens innerhalb des angegebenen Ausgaben/Kostenzeitraums gegenüber dem ursprünglichen Antrag geändert (Begründung)?}
+
+\section{Sind inzwischen von dritter Seite Ergebnisse bekannt geworden, die für die Durchführung des Vorhabens relevant sind? (Darstellung der aktuellen Informationsrecherchen nach Nr. 2.1 BNBest-BMBF 98 bzw. Nr. 6.1 NKBF 98).}
+
+\section{Sind oder werden Änderungen in der Zielsetzung notwendig?}
+
+\section{Fortschreibung des Verwertungsplans. Diese soll, soweit im Einzelfall zutreffend, Angaben zu folgenden Punkten enthalten (Geschäftsgeheimnisse des Zuwendungsempfängers brauchen nicht offenbart zu werden):}
+
+
+\subsection{Erfindungen/Schutzrechtsanmeldungen und erteilte Schutzrechte, die vom Zuwendungsempfänger oder von am Vorhaben Beteiligten gemacht oder in Anspruch genommen wurden, sowie deren standortbezogene Verwertung (Lizenzen u.a.) und erkennbare weitere Verwertungsmöglichkeiten,}
+
+\subsection{Wirtschaftliche Erfolgsaussichten nach Projektende (mit Zeithorizont) - z.B. auch funktionale/wirtschaftliche Vorteile gegenüber Konkurrenzlösungen, Nutzen für ver-schiedene Anwendergruppen/-industrien am Standort Deutschland, Umsetzungs- und Transferstrategien (Angaben, soweit die Art des Vorhabens dies zulässt),}
+
+\subsection{Wissenschaftliche und/oder technische Erfolgsaussichten nach Projektende (mit Zeit-horizont) - u.a. wie die geplanten Ergebnisse in anderer Weise (z.B. für öffentliche Aufgaben, Datenbanken, Netzwerke, Transferstellen etc.) genutzt werden können. Dabei ist auch eine etwaige Zusammenarbeit mit anderen Einrichtungen, Firmen, Netzwerken, Forschungsstellen u.a. einzubeziehen,}
+
+\subsection{Wissenschaftliche und wirtschaftliche Anschlussfähigkeit für eine mögliche notwen-dige nächste Phase bzw. die nächsten innovatorischen Schritte zur erfolgreichen Um-setzung der Ergebnisse.}
+
+
+\end{document}
